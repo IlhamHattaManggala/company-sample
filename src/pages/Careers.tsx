@@ -150,7 +150,7 @@ const Careers = () => {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {jobs.map((job, index) => (
+            {jobs.map((job) => (
               <div
                 key={job.key}
                 className={`bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 ${
